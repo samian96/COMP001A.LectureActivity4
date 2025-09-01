@@ -53,6 +53,7 @@
         <!--Div container for building responsive tables-->
         <div id="table2">
             <!--Responsive table that adjusts its width based on its parent container's width-->
+            <table style="width: 100%;">
             <caption>Responsive table using relative width values</caption>
             <!--Table header-->
             <thead>
@@ -79,8 +80,23 @@
                     <td>Data 3.2</td>
                 </tr>
             </tbody>
-
+            </table>
         </div>
+        <hr>
+        <!--Div container for building responsive table with merged cells-->
+        <div id="table3"></div>
+        <!--Responsive table with merged cells-->
+        <table style="width 100%;">
+            <caption>Responsive table with merged cells</caption>
+            <!--Table header-->
+            <thead>
+                <!--Table row for the header-->
+                <tr>
+                    <th rowspan="2">Header 1</th> <!--Header cell that spans two rows vertically-->
+                </tr>
+            </thead>
+        </table>
+        
     </main>
     <footer>
         <p> &copy; Samuel Iannazzo 2025</p>
